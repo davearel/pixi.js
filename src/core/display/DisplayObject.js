@@ -561,4 +561,6 @@ DisplayObject.prototype.destroy = function ()
 
     this.worldTransform = null;
     this.filterArea = null;
+    this.interactive = false;
+    this.visible = false;
 };
